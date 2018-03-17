@@ -1,0 +1,22 @@
+{
+  "name": "simpla",
+  "homepage": "https://github.com/YOSOFT/simpla",
+  "authors": [
+    "YOSOFT <julio.ramirez@yosoft.com.co>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "simpla-text": "^1.2.2",
+    "simpla-img": "^1.3.2",
+    "simpla-admin": "^1.3.1"
+  }
+}
