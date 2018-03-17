@@ -14,20 +14,17 @@
 
     // The Github repo you want Simpla to use
     repo: 'YOSOFT/simpla',
-
     // Netlify auth adapter, initialize with your Netlify site name
     auth: new SimplaNetlify({ site: 'gifted-wilson-5ea076' }),
-
-    // Public content source (optional)
-    // Defaults to fetching directly from Github
-    source: 'https://gifted-wilson-5ea076.netlify.com/'
 
   });
 </script>
 </head>
 <body>
   <!-- Block of editable richtext -->
-<simpla-text path="/text"></simpla-text>
+<simpla-text path="/text">
+  <p>Simpla text is a block of editable richtext for the Simpla content system</p>
+</simpla-text>
 
 <!-- An editable image -->
 <img is="simpla-img" path="/section/img">
